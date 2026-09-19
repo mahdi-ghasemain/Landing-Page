@@ -1,0 +1,7 @@
+tmp/
+.freebuff/
+*.rar
+node_modules/
+.env
+.env.*
+assets/images/landing-page-reference.png

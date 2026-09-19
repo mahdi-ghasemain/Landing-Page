@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fluentfolio — Language learning designed around your goals, your level, and your life.">
+    <title>Fluentfolio — Master Your World</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/fonts/fonts.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/mobile.css" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER — separate header for this page, styles in assets/css/styles.css -->
+    <header class="header-container" id="siteHeader">
+        <a href="index.html" class="brand" aria-label="Fluentfolio home">
+            <span class="brand-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="0" width="16" height="16" fill="#1a1a1a"></rect>
+                    <rect x="0" y="18" width="12" height="6" fill="#1a1a1a"></rect>
+                    <rect x="0" y="26" width="8" height="6" fill="#1a1a1a"></rect>
+                    <rect x="18" y="0" width="6" height="6" fill="#1a1a1a"></rect>
+                </svg>
+            </span>
+            <span class="brand-text">FLUENTFOLIO</span>
+        </a>
+
+        <ul class="nav-menu" id="mainNav" aria-label="Main navigation">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home Page</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses <span class="chevron-down" aria-hidden="true"></span></a></li>
+            <li class="nav-item"><a href="#teachers" class="nav-link">Teachers <span class="chevron-down" aria-hidden="true"></span></a></li>
+            <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+        </ul>
+
+        <div class="actions">
+            <button class="search-icon" id="searchBtn" aria-label="Search">
+                <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+            <button class="cta-button" type="button">
+                <span class="arrow-right" aria-hidden="true">→</span>
+                <span class="cta-label-full">Free Placement Test</span>
+                <span class="cta-label-short">Free Test</span>
+            </button>
+            <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-content">
+                        <div class="hero-pill">
+                            <i class="bi bi-magic pill-icon" aria-hidden="true"></i>
+                            <span class="pill-divider" aria-hidden="true"></span>
+                            <span class="pill-text">Fluentfolio — Language learning</span>
+                        </div>
+                        <h1 class="hero-title">
+                            Master Your <span class="brand-badge" aria-hidden="true">F</span> World<br>
+                            With <span class="mark-word">Fluentfolio<svg class="mark-scribble" viewBox="0 0 220 16" preserveAspectRatio="none" aria-hidden="true"><path d="M3 10 C 45 3, 95 13, 140 7 S 200 4, 217 9"></path><path d="M14 15 C 70 9, 130 16, 205 10"></path></svg></span>
+                        </h1>
+                        <p class="hero-desc">Build the confidence to communicate, learn, and connect, with a learning path designed around your goals, your level, and your life.</p>
+                        <div class="hero-buttons">
+                            <a href="#courses" class="btn-dark"><span class="hero-desktop-label">Discover Courses</span><span class="hero-tablet-label">Discover Lessons</span></a>
+                            <a href="#" class="btn-purple"><i class="bi bi-arrow-right"></i> Free Placement Test</a>
+                        </div>
+                    </div>
+                    <div class="hero-media">
+                        <div class="hero-image">
+                            <img src="assets/images/hero-person.jpg" alt="Student studying" class="hero-img">
+                        </div>
+                        <div class="tags">
+                            <div class="tag tag-1">EASY TO LEARN</div>
+                            <div class="tag tag-2">PERSONALIZE</div>
+                            <div class="tag tag-3">FLEXABLE</div>
+                        </div>
+                        <div class="star" aria-hidden="true">✦</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY FLUENTFOLIO -->
+        <section class="why" id="about">
+            <div class="container">
+                <div class="why-wrapper">
+                    <span class="why-ribbon">Why Fluentfolio ?!</span>
+                    <svg class="why-star" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+                        <path d="M50 0 C 54 34 66 46 100 50 C 66 54 54 66 50 100 C 46 66 34 54 0 50 C 34 46 46 34 50 0 Z"></path>
+                    </svg>
+                    <div class="why-box">
+                        <div class="why-intro">
+                            <h2>More than learning languages. Learning how to use it.</h2>
+                            <p>At Fluentfolio, we believe language learning should have a clear purpose. That's why we combine structured learning with real communication, practical skills, and continuous support — so you don't just learn a language, you learn how to use it.</p>
+                        </div>
+                        <div class="why-grid">
+                            <div class="why-cards">
+                                <div class="why-card">
+                                    <span class="why-num">1</span>
+                                    <h3>A clear path</h3>
+                                    <p>Know where you're going and what comes next, structured learning paths that move you forward with purpose</p>
+                                </div>
+                                <div class="why-card">
+                                    <span class="why-num">2</span>
+                                    <h3>Language for real life</h3>
+                                    <p>We focus on communication, useful skills, and real world language that stays with you beyond the lesson.</p>
+                                </div>
+                                <div class="why-card">
+                                    <span class="why-num">3</span>
+                                    <h3>Learning that moves with you</h3>
+                                    <p>Your goals, pace, and challenges matter — and your learning experience reflects that.</p>
+                                </div>
+                                <div class="why-card">
+                                    <span class="why-num">4</span>
+                                    <h3>Support beyond the classroom</h3>
+                                    <p>From guidance to feedback, we're here to help you keep moving forward.</p>
+                                </div>
+                            </div>
+                            <div class="why-pagination" aria-label="Why Fluentfolio pages">
+                                <button type="button" class="why-page-arrow" data-why-page="prev" aria-label="Previous cards"><i class="bi bi-chevron-left"></i></button>
+                                <button type="button" class="why-page is-active" data-why-page="1" aria-label="Show cards 1 and 2">1</button>
+                                <button type="button" class="why-page" data-why-page="2" aria-label="Show cards 3 and 4">2</button>
+                                <button type="button" class="why-page-arrow" data-why-page="next" aria-label="Next cards"><i class="bi bi-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPLORE COURSES -->
+        <section class="courses" id="courses">
+            <div class="container">
+                <h2 class="sec-title">Explore Our Courses</h2>
+                <p class="sec-sub">Step up your skills with live masterclasses, rich project-based lessons, and instruction led by industry veterans.</p>
+                <div class="search-wrap">
+                    <div class="search-field">
+                        <i class="bi bi-arrow-right search-arrow"></i>
+                        <input type="search" id="courseSearchInput" placeholder="What Do You Wanna Learn?" aria-label="Search courses">
+                        <button class="search-submit" aria-label="Search"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+                <div class="courses-header">
+                    <div class="tabs" id="courseTabs">
+                        <button type="button" class="tab active" data-filter="all"><span class="tab-icon">B</span> Beginner</button>
+                        <button type="button" class="tab" data-filter="pre">Pre-Intermediate</button>
+                        <button type="button" class="tab" data-filter="intermediate">Intermediate</button>
+                        <button type="button" class="tab" data-filter="advance">Advance</button>
+                    </div>
+                    <span class="showing-count">Showing All <strong>73 Courses</strong></span>
+                </div>
+                <div class="courses-grid" id="coursesGrid">
+                    <article class="course-card" data-level="intermediate">
+                        <div class="card-thumb thumb-blue">
+                            <div class="thumb-inner">
+                                <h4>Master<br>Your Future</h4>
+                                <p>Gain confidence in English &amp; open doors to global opportunities</p>
+                                <a href="#" class="thumb-btn">Join Now !</a>
+                            </div>
+                            <span class="thumb-orbit" aria-hidden="true"></span>
+                            <span class="thumb-sun" aria-hidden="true"></span>
+                            <span class="thumb-flag" aria-hidden="true">🇬🇧</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="card-level">INTERMEDIATE</span>
+                            <h3 class="card-title">Practicing your PTE Academic Speaking skills</h3>
+                            <div class="card-meta">
+                                <span><i class="bi bi-clock"></i> 10h 25m</span>
+                                <span><i class="bi bi-book"></i> 15 lessons</span>
+                            </div>
+                            <p class="card-desc">Achieve your desire score in the speaking section of PTE academic. Learn new skills and strategies and build confidence</p>
+                            <div class="card-footer">
+                                <div class="card-teacher">
+                                    <span class="avatar">AR</span>
+                                    <div>
+                                        <strong>Ahmad Rezaee</strong>
+                                        <small>Teacher</small>
+                                    </div>
+                                </div>
+                                <span class="card-price">$250</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="course-card" data-level="intermediate">
+                        <div class="card-thumb thumb-red">
+                            <div class="thumb-inner">
+                                <span class="thumb-brand">FLUENT<br>FOLIO</span>
+                                <h4>LANGUAGE<br>COURSE</h4>
+                                <a href="#" class="thumb-btn dark">Start your IELTS journey 100+</a>
+                            </div>
+                            <span class="thumb-pen" aria-hidden="true"></span>
+                            <span class="thumb-note" aria-hidden="true">✦</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="card-level">INTERMEDIATE</span>
+                            <h3 class="card-title">Practicing your PTE Academic Speaking skills</h3>
+                            <div class="card-meta">
+                                <span><i class="bi bi-clock"></i> 10h 25m</span>
+                                <span><i class="bi bi-book"></i> 15 lessons</span>
+                            </div>
+                            <p class="card-desc">Achieve your desire score in the speaking section of PTE academic. Learn new skills and strategies and build confidence</p>
+                            <div class="card-footer">
+                                <div class="card-teacher">
+                                    <span class="avatar">AR</span>
+                                    <div>
+                                        <strong>Ahmad Rezaee</strong>
+                                        <small>Teacher</small>
+                                    </div>
+                                </div>
+                                <span class="card-price">$250</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="course-card" data-level="intermediate">
+                        <div class="card-thumb thumb-light">
+                            <div class="thumb-inner">
+                                <h4 class="thumb-title-dark">ENGLISH<br>FOR EVERYDAY<br>LIFE</h4>
+                            </div>
+                            <span class="thumb-arch thumb-arch-left" aria-hidden="true"></span>
+                            <span class="thumb-arch thumb-arch-right" aria-hidden="true"></span>
+                            <span class="thumb-flag thumb-flag-large" aria-hidden="true">🇬🇧</span>
+                            <span class="thumb-person" aria-hidden="true">●</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="card-level">INTERMEDIATE</span>
+                            <h3 class="card-title">Practicing your PTE Academic Speaking skills</h3>
+                            <div class="card-meta">
+                                <span><i class="bi bi-clock"></i> 10h 25m</span>
+                                <span><i class="bi bi-book"></i> 15 lessons</span>
+                            </div>
+                            <p class="card-desc">Achieve your desire score in the speaking section of PTE academic. Learn new skills and strategies and build confidence</p>
+                            <div class="card-footer">
+                                <div class="card-teacher">
+                                    <span class="avatar">AR</span>
+                                    <div>
+                                        <strong>Ahmad Rezaee</strong>
+                                        <small>Teacher</small>
+                                    </div>
+                                </div>
+                                <span class="card-price">$250</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="courses-pagination" aria-label="Course pages">
+                    <button type="button" class="course-page-arrow" data-course-page="prev" aria-label="Previous courses"><i class="bi bi-chevron-left"></i></button>
+                    <button type="button" class="course-page is-active" data-course-page="1" aria-label="Show first courses">1</button>
+                    <button type="button" class="course-page" data-course-page="2" aria-label="Show more courses">2</button>
+                    <button type="button" class="course-page-arrow" data-course-page="next" aria-label="Next courses"><i class="bi bi-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- IELTS -->
+        <section class="ielts">
+            <div class="container">
+                <div class="ielts-grid">
+                    <div class="ielts-content">
+                        <span class="outline-pill">More tailored experiences</span>
+                        <h2>Preparing for IELTS?</h2>
+                        <p>Know your current band, close the gap to your target, and walk into test day ready with a plan built around all four skills.</p>
+                        <ul class="checks">
+                            <li><i class="bi bi-check-circle-fill"></i> Free assessment to find your current band</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Personal feedback on Writing &amp; Speaking</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Mock tests under real exam conditions</li>
+                        </ul>
+                        <a href="#" class="btn-purple"><i class="bi bi-arrow-right"></i> Explore IELTS</a>
+                    </div>
+                    <div class="ielts-image">
+                        <img src="assets/images/ielts-bg.jpg" alt="Graduation cap on books with UK flag">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOURNEY -->
+        <section class="journey">
+            <div class="container">
+                <p class="section-eyebrow">YOUR LEARNING JOURNEY</p>
+                <h2 class="sec-title">Know where you're going<br> Enjoy the journey.</h2>
+                <p class="sec-sub">At Fluentfolio, we help you understand where you are, where you want to go, and what it takes to get there. Every step builds on the one before it, turning small progress into lasting confidence.</p>
+                <div class="journey-cards">
+                    <svg class="journey-path" viewBox="0 0 820 250" preserveAspectRatio="none" aria-hidden="true">
+                        <defs>
+                            <marker id="journey-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                                <path d="M 1 1 L 8 5 L 1 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </marker>
+                        </defs>
+                        <path marker-end="url(#journey-arrow)" d="M83 76 C49 28 73 2 111 15 C146 27 136 66 105 76 C63 89 70 153 114 177 C145 194 174 187 189 177" />
+                        <path marker-end="url(#journey-arrow)" d="M223 75 C195 32 251 28 267 58 C285 94 250 94 252 121" />
+                        <path marker-end="url(#journey-arrow)" d="M369 145 C356 196 385 237 421 225 C457 213 451 166 413 168" />
+                        <path marker-end="url(#journey-arrow)" d="M545 113 C548 75 580 41 616 41 C660 41 689 76 716 91" />
+                        <path marker-end="url(#journey-arrow)" d="M727 104 C775 111 805 149 797 187 C791 221 763 232 754 209" />
+                    </svg>
+                    <svg class="journey-tablet-path" viewBox="0 0 720 350" preserveAspectRatio="none" aria-hidden="true">
+                        <defs>
+                            <marker id="journey-tablet-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                                <path d="M 1 1 L 8 5 L 1 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </marker>
+                        </defs>
+                        <path marker-end="url(#journey-tablet-arrow)" d="M97 112 C66 48 121 26 172 49 C217 70 194 119 144 115 C85 110 121 167 235 146" />
+                        <path marker-end="url(#journey-tablet-arrow)" d="M448 88 C424 42 491 36 513 76 C538 122 478 126 492 166" />
+                        <path marker-end="url(#journey-tablet-arrow)" d="M333 194 C349 256 293 291 226 274 C166 259 153 211 197 193" />
+                        <path marker-end="url(#journey-tablet-arrow)" d="M471 211 C536 190 621 197 646 245 C669 290 623 319 589 286" />
+                    </svg>
+                    <div class="j-card">
+                        <h3>Discover your level</h3>
+                        <p>Start with a clear picture of your current skills, strengths, and areas for growth.</p>
+                    </div>
+                    <div class="j-card">
+                        <h3>Find your path</h3>
+                        <p>Choose the learning path that matches your goals — school, work, travel, or simply yourself.</p>
+                    </div>
+                    <div class="j-card">
+                        <h3>Build your skills</h3>
+                        <p>Develop your language through structured lessons, meaningful practice, and real world communication.</p>
+                    </div>
+                    <div class="j-card">
+                        <h3>Track your progress</h3>
+                        <p>See how far you've come, understand what to work on next, and keep moving forward.</p>
+                    </div>
+                    <div class="j-card">
+                        <h3>Use language with confidence</h3>
+                        <p>Develop your language through structured lessons, meaningful practice, and real world communication.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FIND YOUR WAY -->
+        <section class="ways">
+            <div class="container">
+                <p class="section-eyebrow-light">FIND YOUR WAY</p>
+                <h2 class="ways-title">Learning designed for every stage of the journey.</h2>
+                <p class="ways-sub">Whether you're taking your first steps, building on what you already know, or aiming for your next big goal, Fluentfolio has a path to help you move forward.</p>
+                <div class="ways-grid">
+                    <div class="way-card">
+                        <span class="way-tag">Ages 5–7</span>
+                        <h3>Little Dinos</h3>
+                        <p>A playful first step into language — first vocabulary, sounds, and communication through stories, games, and songs.</p>
+                        <a href="#" class="way-link">Explore Little Dinos <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="way-card">
+                        <span class="way-tag">Ages 7–13</span>
+                        <h3>Junior Explorers</h3>
+                        <p>New language for curious young learners — vocabulary, grammar, communication, and confidence through engaging learning.</p>
+                        <a href="#" class="way-link">Explore Junior Explorers <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="way-card">
+                        <span class="way-tag">Ages 13–18</span>
+                        <h3>Teens</h3>
+                        <p>Language that connects with real life — stronger communication, academic skills, and a foundation for the future.</p>
+                        <a href="#" class="way-link">Explore Teens Courses <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="way-card">
+                        <span class="way-tag">18+</span>
+                        <h3>Adults</h3>
+                        <p>For work, travel, study, or yourself — practical skills that fit your goals and everyday life.</p>
+                        <a href="#" class="way-link">Explore Adults Courses <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="ways-pagination" aria-label="Learning stage pages">
+                    <button type="button" class="way-page-arrow" data-way-page="prev" aria-label="Previous stages"><i class="bi bi-chevron-left"></i></button>
+                    <button type="button" class="way-page is-active" data-way-page="1" aria-label="Show Little Dinos and Junior Explorers">1</button>
+                    <button type="button" class="way-page" data-way-page="2" aria-label="Show Teens and Adults">2</button>
+                    <button type="button" class="way-page-arrow" data-way-page="next" aria-label="Next stages"><i class="bi bi-chevron-right"></i></button>
+                </div>
+                <p class="ways-note"><i class="bi bi-info-circle"></i> Also available: general language courses, IELTS preparation, business English, and corporate English.</p>
+            </div>
+        </section>
+
+        <!-- TEACHER TRAINING -->
+        <section class="training" id="teachers">
+            <div class="container">
+                <div class="training-grid">
+                    <blockquote class="quote-box">
+                        <svg class="quote-icon" viewBox="0 0 32 32" aria-hidden="true">
+                            <path d="M16 1.5C17.5 11.2 20.8 14.5 30.5 16C20.8 17.5 17.5 20.8 16 30.5C14.5 20.8 11.2 17.5 1.5 16C11.2 14.5 14.5 11.2 16 1.5Z"></path>
+                        </svg>
+                        <p>"Great teaching isn't about knowing all the answers. It's about knowing how to guide learners toward finding them."</p>
+                    </blockquote>
+                    <div class="training-content">
+                        <p class="mini-label">For aspiring &amp; developing teachers</p>
+                        <h2 class="training-title">Learn to teach. Teach to inspire.</h2>
+                        <p class="training-desc">Turn your language knowledge into effective classroom practice — with practical training in lesson planning, classroom management, and giving feedback that helps learners grow.</p>
+                        <ul class="checks">
+                            <li><i class="bi bi-check-circle-fill"></i> Practical, classroom focused training</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Delivered by Cambridge trained trainers</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Lesson planning, feedback, and reflective practice</li>
+                        </ul>
+                        <a href="#" class="btn-purple"><i class="bi bi-arrow-right"></i> Explore Teacher Training</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq">
+            <div class="container">
+                <p class="section-eyebrow">FREQUENTLY ASKED QUESTIONS</p>
+                <h2 class="sec-title">Everything you need to know<br> before you start.</h2>
+                <div class="faq-list" id="faqList">
+                    <div class="faq-item open">
+                        <button type="button" class="faq-toggle" aria-expanded="true">
+                            <span>How do I know which course is right for me?</span>
+                            <i class="bi bi-chevron-up"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Start with our free placement test. We'll help you understand your current level and find the path that best matches your goals.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-toggle" aria-expanded="false">
+                            <span>Are classes online or in person?</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Both. You can join live online classes or attend in-person sessions — the same structured path, your choice of format.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-toggle" aria-expanded="false">
+                            <span>How do I know which course is right for me?</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Take the free placement test first, then talk to an advisor. We match your level and goals to the right group.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="brand" aria-label="Fluentfolio home">
+                        <span class="brand-icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0" y="0" width="16" height="16" fill="#1a1a1a"></rect>
+                                <rect x="0" y="18" width="12" height="6" fill="#1a1a1a"></rect>
+                                <rect x="0" y="26" width="8" height="6" fill="#1a1a1a"></rect>
+                                <rect x="18" y="0" width="6" height="6" fill="#1a1a1a"></rect>
+                            </svg>
+                        </span>
+                        <span class="brand-text">FLUENTFOLIO</span>
+                    </a>
+                    <p class="footer-tagline">Language learning designed around your goals, your level, and your life.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="bi bi-telegram"></i></a>
+                    </div>
+                </div>
+                <nav class="footer-col" aria-label="Courses">
+                    <h4>Courses</h4>
+                    <a href="#">Little Dinos</a>
+                    <a href="#">Junior Explorers</a>
+                    <a href="#">Teens</a>
+                    <a href="#">Adults</a>
+                </nav>
+                <nav class="footer-col" aria-label="Company">
+                    <h4>Company</h4>
+                    <a href="#about">About</a>
+                    <a href="#teachers">Teachers</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </nav>
+                <nav class="footer-col" aria-label="Support">
+                    <h4>Support</h4>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </nav>
+                <div class="footer-col">
+                    <h4>Get in touch</h4>
+                    <a href="mailto:info@fluentfolio.com">info@fluentfolio.com</a>
+                    <span class="footer-phone">[phone number]</span>
+                    <a href="#" class="btn-outline-sm"><i class="bi bi-arrow-right"></i> Free Placement Test</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© [year] Fluentfolio. All rights reserved.</span>
+                <span>Made for learners everywhere.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

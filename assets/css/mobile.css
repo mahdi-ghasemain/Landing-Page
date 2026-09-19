@@ -1,0 +1,111 @@
+/* Mobile composition from the 375px PDF. */
+@media (max-width: 559px) {
+  body { font-family: Arial, sans-serif; }
+  .header-container { height: 60px; padding: 0 20px 0 65px; box-shadow: none; }
+  .header-container .nav-toggle { position: absolute; left: 18px; top: 18px; }
+  .header-container .cta-button { display: none; }
+  .header-container .brand { gap: 6px; }
+  .header-container .brand-text { font-size: 14px; }
+  .hero { padding-top: 25px; }
+  .hero .hero-title { font-size: 32px; }
+  .hero .hero-pill { font-size: 9px; padding: 7px 12px; }
+  .hero .hero-desc { max-width: 90%; font-size: 11px; margin-bottom: 20px; }
+  .hero .hero-buttons { gap: 10px; padding: 0 16px; }
+  .hero .hero-buttons .btn-purple { display: inline-flex; width: auto; padding: 8px 12px; font-size: 10px; }
+  .hero .hero-buttons .btn-dark { padding: 8px 12px; font-size: 10px; }
+  .hero .hero-media { margin-top: 24px; aspect-ratio: 375/300; }
+  .hero .hero-image { left: 5%; right: auto; width: 90%; height: 92%; }
+  .hero .star { right: 2%; }
+  .why { margin: 60px 0; }
+  .why .container { padding: 0 16px; }
+  .why .why-ribbon { display: none; }
+  .why .why-box { padding: 26px; min-height: 0; gap: 22px; border-radius: 24px; }
+  .why .why-intro h2 { font-size: 24px; line-height: 1.1; margin-bottom: 18px; }
+  .why .why-intro p { font-size: 11px; line-height: 1.45; }
+  .why .why-cards { grid-template-columns: 1fr; }
+  .why .why-card { min-height: 270px; padding: 22px; border-radius: 12px; }
+  .why .why-num { width: 50px; height: 50px; font-size: 52px; margin-bottom: 30px; }
+  .why .why-card h3 { font-size: 22px; margin-bottom: 22px; }
+  .why .why-card p { font-size: 13px; line-height: 1.5; }
+  .why .why-pagination { justify-content: center; margin-top: 24px; gap: 7px; }
+  .mobile-extra-page { display: inline-flex !important; }
+  .why .why-pagination button, .ways .ways-pagination button, .courses .courses-pagination button { width: 30px; height: 30px; font-size: 12px; }
+  .courses { padding: 0 16px 60px; }
+  .courses .container { padding: 25px; border-radius: 22px; }
+  .courses .sec-title { font-size: 23px; }
+  .courses .sec-sub { font-size: 11px; max-width: none; margin: 12px 0 22px; }
+  .courses .search-field { height: 36px; }
+  .courses .search-field input { font-size: 10px; }
+  .courses .courses-header { flex-wrap: wrap; padding-top: 18px; gap: 14px; }
+  .courses .tabs { overflow-x: auto; width: 100%; gap: 6px; }
+  .courses .tab { font-size: 10px; padding: 7px 10px; }
+  .courses .showing-count { font-size: 10px; margin-left: 0; }
+  .courses .courses-grid { grid-template-columns: 1fr; }
+  .courses .card-thumb { height: 210px; padding: 25px; }
+  .courses .thumb-inner h4, .courses .thumb-red .thumb-inner h4 { font-size: 24px; }
+  .courses .thumb-inner p { font-size: 11px; }
+  .courses .thumb-btn { font-size: 10px; }
+  .courses .card-body { padding: 18px; min-height: 260px; }
+  .courses .card-level { font-size: 10px; }
+  .courses .card-title { font-size: 18px; margin: 14px 0; }
+  .courses .card-meta span, .courses .card-desc { font-size: 11px; }
+  .courses .card-meta i { font-size: 11px; }
+  .courses .card-desc { margin: 14px 0 20px; }
+  .courses .card-teacher strong, .courses .card-price { font-size: 12px; }
+  .courses .card-teacher small { font-size: 10px; }
+  .courses .avatar { width: 32px; height: 32px; font-size: 10px; }
+  .courses .courses-pagination { margin-top: 24px; }
+  .ielts { padding: 10px 0 65px; }
+  .ielts-grid { display: flex; flex-direction: column; gap: 24px; }
+  .ielts-image { order: -1; width: 100%; border-radius: 18px; }
+  .ielts-image img { height: auto; aspect-ratio: 1; object-fit: cover; }
+  .ielts-content h2 { font-size: 25px; }
+  .ielts-content p { font-size: 12px; }
+  .ielts .checks li { font-size: 11px; }
+  .ielts .btn-purple { width: 100%; justify-content: center; font-size: 12px; }
+  .journey { padding: 30px 0 65px; }
+  .journey .sec-title { font-size: 23px; }
+  .journey .sec-sub { display: none; }
+  .journey .section-eyebrow { font-size: 9px; }
+  .journey .journey-cards { display: flex; flex-direction: column; width: 100%; height: auto; min-height: 0; padding: 35px 18px; gap: 22px; }
+  .journey .journey-path, .journey .journey-tablet-path { display: none; }
+  .journey .j-card { position: relative; inset: auto; width: 78%; min-height: 140px; padding: 20px; flex-shrink: 0; }
+  .journey .j-card:nth-of-type(odd) { align-self: flex-start; transform: rotate(-5deg); }
+  .journey .j-card:nth-of-type(even) { align-self: flex-end; transform: rotate(5deg); }
+  .journey .j-card h3 { font-size: 15px; }
+  .journey .j-card p { font-size: 12px; line-height: 1.45; }
+  .journey .j-card::after { content: ''; position: absolute; width: 54px; height: 50px; border: 1px dashed #aaa; border-radius: 50%; top: calc(100% - 5px); left: -20px; z-index: -1; }
+  .ways { margin: 20px 16px 55px; border-radius: 24px; }
+  .ways .container { padding: 25px; }
+  .ways .section-eyebrow-light { font-size: 9px; }
+  .ways .ways-title { font-size: 23px; }
+  .ways .ways-sub { font-size: 11px; line-height: 1.5; margin-bottom: 35px; }
+  .ways .ways-grid { grid-template-columns: 1fr; }
+  .ways .way-card { min-height: 270px; padding: 20px; border-radius: 12px; }
+  .ways .way-tag { font-size: 11px; margin-left: 45px; }
+  .ways .way-card h3 { font-size: 18px; margin: 30px 0 16px; }
+  .ways .way-card p { font-size: 13px; }
+  .ways .way-link { font-size: 11px; padding: 8px 14px; }
+  .ways .ways-pagination { margin: 22px 0; gap: 7px; }
+  .ways .ways-note { font-size: 11px; padding: 14px; border-radius: 12px; }
+  .training { padding-top: 35px; padding-bottom: 65px; }
+  .training .mini-label { font-size: 9px; }
+  .training .training-desc, .training .checks li { font-size: 11px; }
+  .training .btn-purple { font-size: 11px; width: 100%; justify-content: center; padding: 10px; }
+  .training .training-grid { gap: 35px; }
+  .training .quote-box { min-height: 280px; padding: 25px; }
+  .training .quote-box p { font-size: 21px; }
+  .faq .container .sec-title { font-size: 23px; }
+  .faq .section-eyebrow { font-size: 9px; }
+  .faq-toggle { font-size: 13px; padding: 18px 16px; }
+  .faq-answer p { font-size: 12px; padding: 0 16px 18px; }
+  .faq-list { gap: 12px; }
+  .site-footer { padding-top: 45px; }
+  .site-footer .brand-text { font-size: 14px; }
+  .footer-tagline { font-size: 12px; width: 80%; }
+  .footer-socials a { width: 26px; height: 26px; font-size: 13px; }
+  .footer-brand { margin-bottom: 35px; }
+  .footer-col h4, .footer-col a, .footer-phone { font-size: 12px; }
+  .footer-toggle { padding: 12px 0; }
+  .site-footer .footer-bottom { font-size: 10px; flex-direction: column; align-items: center; padding: 20px 0; }
+}
