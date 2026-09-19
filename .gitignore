@@ -2,6 +2,7 @@ tmp/
 .freebuff/
 *.rar
 node_modules/
+dist/
 .env
 .env.*
 assets/images/landing-page-reference.png

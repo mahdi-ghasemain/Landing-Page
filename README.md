@@ -52,6 +52,13 @@ In VS Code you can also right-click `index.html` → **Open with Live Server**.
 `server.js` is only a development helper; it is safe to delete before handing the
 project in.
 
+## Vercel deployment
+
+`vercel.json` explicitly selects a static deployment. Vercel runs
+`node scripts/build-static.js` and publishes `dist/`, containing only
+`index.html` and `assets/`. The local preview server is not deployed as a function.
+Push to `main` to trigger the connected Vercel deployment.
+
 ## Responsive breakpoints
 
 | Range            | Layout                                                     |
